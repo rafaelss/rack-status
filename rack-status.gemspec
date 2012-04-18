@@ -4,8 +4,8 @@ require File.expand_path('../lib/rack/status/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Rafael Souza"]
   gem.email         = ["me@rafaelss.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Rack middleware that respond to /status requests and return 200 as status code and "OK" as response body}
+  gem.summary       = %q{A middleware to check if an app is running}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
